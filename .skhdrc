@@ -1,0 +1,17 @@
+# navigation
+shift + alt - h : yabai -m window --focus west
+shift + alt - j : yabai -m window --focus south
+shift + alt - k : yabai -m window --focus north
+shift + alt - l : yabai -m window --focus east
+
+# equalize size
+shift + alt - e : yabai -m space --balance
+
+# rotate
+shift + alt - r : yabai -m space --rotate 90
+
+# float
+shift + cmd - f : \
+    yabai -m window --toggle float; \
+    yabai -m window --toggle border
+
